@@ -36,7 +36,7 @@
     "node-verhoeff": "0.0.11"
   },
   "peerDependencies": {
-    "joi": "^10.2.2"
+    "joi": ">=9.0.0"
   },
   "devDependencies": {
     "babel-cli": "^6.7.5",
