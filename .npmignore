@@ -1,18 +1,11 @@
-/config.js
-coverage-report.html
-
 ###### Mac OS generated files
-.DS_Store
-.DS_Store?
 ._*
 .Spotlight-V100
 .Trashes
 ehthumbs.db
 Thumbs.db
 
-
-
-##### node.js
+###### node.js
 # Logs
 logs
 *.log
@@ -26,49 +19,17 @@ pids
 lib-cov
 
 # Coverage directory used by tools like istanbul
-coverage
+/coverage/
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
 
-# node-waf configuration
-.lock-wscript
-
-# Compiled binary addons (http://nodejs.org/api/addons.html)
-build/Release
-
-# Dependency directory
-# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
-node_modules
-
-
-
-
 ##### Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
+.editorconfig
 *.iml
 
 ## Directory-based project format:
-.idea/
-# if you remove the above rule, at least ignore the following:
-
-# User-specific stuff:
-# .idea/workspace.xml
-# .idea/tasks.xml
-# .idea/dictionaries
-
-# Sensitive or high-churn files:
-# .idea/dataSources.ids
-# .idea/dataSources.xml
-# .idea/sqlDataSources.xml
-# .idea/dynamic.xml
-# .idea/uiDesigner.xml
-
-# Gradle:
-# .idea/gradle.xml
-# .idea/libraries
-
-# Mongo Explorer plugin:
-# .idea/mongoSettings.xml
+/.idea/
 
 ## File-based project format:
 *.ipr
@@ -80,7 +41,7 @@ node_modules
 /out/
 
 # mpeltonen/sbt-idea plugin
-.idea_modules/
+/.idea_modules/
 
 # JIRA plugin
 atlassian-ide-plugin.xml
@@ -90,9 +51,7 @@ com_crashlytics_export_strings.xml
 crashlytics.properties
 crashlytics-build.properties
 
-
-
-##### VIM editor
+# VIM editor
 [._]*.s[a-w][a-z]
 [_]s[a-w][a-z]
 *.un~
@@ -100,5 +59,9 @@ Session.vim
 .netrwhist
 *~
 
-# Babel output
-/dist/
+# Build System files:
+
+# Buildkite
+/.buildkite/
+
+
