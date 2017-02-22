@@ -1,5 +1,5 @@
 {
-  "name": "@safetyculture/joi-verhoeff",
+  "name": "joi-verhoeff",
   "version": "1.0.0-rc.1",
   "description": "Verhoeff validation for Joi",
   "keywords": [
